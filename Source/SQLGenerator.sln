@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLGenerator", "SQLGenerator\SQLGenerator.csproj", "{D1533AB5-5421-45F5-B377-D6BD3A06589F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLGenerator.PostgreSQL", "SQLGenerator.PostgreSQL\SQLGenerator.PostgreSQL.csproj", "{FB4CC4A6-6D16-434F-8C7C-AE89F9049319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLGenerator.MySQL", "SQLGenerator.MySQL\SQLGenerator.MySQL.csproj", "{CCFC9484-6002-41A1-BA29-A15EF248E731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLGenerator.MSBuild", "SQLGenerator.MSBuild\SQLGenerator.MSBuild.csproj", "{5C5BBA26-2BCA-4020-B13A-9FCCC94E900C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLGenerator.Usage", "SQLGenerator.Usage\SQLGenerator.Usage.csproj", "{EFE83DB4-E94B-4B6F-8945-A4983A6E4076}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1533AB5-5421-45F5-B377-D6BD3A06589F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1533AB5-5421-45F5-B377-D6BD3A06589F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1533AB5-5421-45F5-B377-D6BD3A06589F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1533AB5-5421-45F5-B377-D6BD3A06589F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4CC4A6-6D16-434F-8C7C-AE89F9049319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4CC4A6-6D16-434F-8C7C-AE89F9049319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4CC4A6-6D16-434F-8C7C-AE89F9049319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4CC4A6-6D16-434F-8C7C-AE89F9049319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFC9484-6002-41A1-BA29-A15EF248E731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFC9484-6002-41A1-BA29-A15EF248E731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFC9484-6002-41A1-BA29-A15EF248E731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFC9484-6002-41A1-BA29-A15EF248E731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5BBA26-2BCA-4020-B13A-9FCCC94E900C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5BBA26-2BCA-4020-B13A-9FCCC94E900C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5BBA26-2BCA-4020-B13A-9FCCC94E900C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5BBA26-2BCA-4020-B13A-9FCCC94E900C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE83DB4-E94B-4B6F-8945-A4983A6E4076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE83DB4-E94B-4B6F-8945-A4983A6E4076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE83DB4-E94B-4B6F-8945-A4983A6E4076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE83DB4-E94B-4B6F-8945-A4983A6E4076}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
