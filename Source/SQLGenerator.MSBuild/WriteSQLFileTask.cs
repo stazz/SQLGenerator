@@ -121,7 +121,7 @@ namespace SQLGenerator.MSBuild
                {
                   var streamWriter = StreamFactory.CreateUnlimitedWriter( fs, this._cancellationSource.Token );
                   var writer = WriterFactory.CreateTransformableWriter<String, StreamWriterWithResizableBuffer, IEnumerable<Char>>(
-                     new StreamCharacterWriter( encodingInfo, 1024 ),
+                     new StreamCharacterWriterLogic( encodingInfo, 1024 ),
                      streamWriter,
                      ToCharEnumerable
                      );

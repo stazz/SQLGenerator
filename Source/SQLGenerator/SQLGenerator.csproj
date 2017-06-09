@@ -11,20 +11,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="UtilPack" Version="1.0.0-RC8" />
+    <PackageReference Include="UtilPack" Version="1.0.0-RC10" />
   </ItemGroup>
 
   <!-- Assembly information stuff -->
   <PropertyGroup>
     <VersionPrefix>1.0.0</VersionPrefix>
-    <VersionSuffix>RC1</VersionSuffix>
+    <VersionSuffix>RC2</VersionSuffix>
     <Authors>Stanislav Muhametsin</Authors>
     <Company>Cometa Solutions Ltd</Company>
     <NeutralLanguage>en-US</NeutralLanguage>
     <AssemblyTitle>$(AssemblyName)</AssemblyTitle>
     <Product>SQLGenerator</Product>
     <Description>
-      Library containing DSL for SQL standard.
+      Library containing DSL for SQL standard. This library contains elements not specific to any vendor. The additional SQLGenerator packages provide vendor-specific API.
     </Description>
     <Copyright>Stanislav Muhametsin</Copyright>
     <AssemblyOriginatorKeyFilePath>$(MSBuildProjectDirectory)\..\..\Keys\$(Product).snk</AssemblyOriginatorKeyFilePath>
@@ -49,7 +49,7 @@
     <PackageVersion>$(VersionPrefix)</PackageVersion>
     <PackageVersion Condition=" '$(VersionSuffix)' != ''">$(PackageVersion)-$(VersionSuffix)</PackageVersion>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Changes in UtilPack classes and methods that require this project to be updated too.</PackageReleaseNotes>
     <PackageTags>sql dsl generation</PackageTags>
     <Title>SQL Generator</Title>
     <PackageProjectUrl>https://github.com/CometaSolutions/SQLGenerator</PackageProjectUrl>
